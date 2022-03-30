@@ -1,5 +1,3 @@
-#to run program go there: https://www.glowscript.org/#/user/kasia184/folder/MyPrograms/program/Calkpi
-
 Web VPython 3.2
 
 #size of a window
@@ -42,13 +40,14 @@ while(True):
      #finding out if during event position of right cube have contact with left cube, its about chcking if position of center points of both cubes is equal to lenght of a side of a cube
     if ball_1.pos.x >= (ball_2.pos.x - side_length):
         temp = ball_1.velocity.x
-        #using momentum conservation law we will simulate a perfectly elastic collision we can calculate velocity vector of cubes
+        #using momentum conservation law we will simulate a perfectly elastic collision, we can calculate velocity vector of cubes
         ball_1.velocity.x = (((left_cube_mass - 1) / (left_cube_mass + 1)) * ball_1.velocity.x) + (2 * ball_2.velocity.x) / (left_cube_mass + 1)
         ball_2.velocity.x = ((2*left_cube_mass / (left_cube_mass + 1))*temp) + ((1 - left_cube_mass) * ball_2.velocity.x) / (left_cube_mass + 1)
-        #while cubes collision "p" variable has to increase by 1
+        #while cubes collision "colision_counts" variable has to increase by 1
         colision_counts = colision_counts+1
 
-    #program will end if right cube while left cube will cros their start position        
+    #program will end if left cube will cros their start position while both cubes after it will go in the same direstion without colision, 
+    #or program will end when left cube crosses the start position and right cube will touch wall for a last time 
     if (ball_1.pos.x  < 0) and (ball_1.velocity.x < ball_2.velocity.x) and (ball_2.velocity.x <= 0):
         calculated_pi_number = colision_counts*(0.1**decimal_accuracy)
         #lets diplay label on a window that will display final result
