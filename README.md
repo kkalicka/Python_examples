@@ -19,7 +19,7 @@ This program contains method that can tcalculate ONP phrase (containing numbers 
 
 3. Fifo_method.py
 
-Program that shows way to do class similar to C ++ available when program include std :: queue from <queue> library.
+Program that shows way to do class similar to C ++ available when program include std :: queue from queue library.
   
 4. bisection.py
   
