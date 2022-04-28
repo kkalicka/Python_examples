@@ -15,7 +15,7 @@ references (for "pi_calculation_using_Vpython.py"):
 
 2. Reverse_Polish_Notation.py
 
-This program contains method that can tcalculate ONP phrase (containing numbers and math operators like: "+", "-", "*", "/"). Sadly, now it only works with specific numbers: 0-10, 12, 123, 23, 1234, 234, 34, 12345, 2345, 345, 45, etc. I will fix it soon.\
+This program contains method that can tcalculate ONP phrase (containing numbers and math operators like: "+", "-", "*", "/"). Sadly, now it only works with specific numbers: 0-10, 12, 123, 23, 1234, 234, 34, 12345, 2345, 345, 45, etc. I will fix it soon.
 
 3. Fifo_method.py
 
