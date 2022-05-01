@@ -6,6 +6,7 @@ I am proud to introduce some of my codes. Most of them are not quite difficult, 
 
 Mentioned first, because it is the most interesting one. This program use physics to calculate the number pi (using momentum conservation law). While calculating program also shows the visualization of how objects are moving. In the beginning, only one cube is moving, but while in contact with another it gives half of its kinetic energy to the touched cube, and then two cubes are moving. Masses of an object are dependent on chosen at the beginning approximation of the final pi number. The only wall on the right is standing static. Counts of contacts with: object-object and wall-object are stored in memory and then used to calculate some approximation of the pi number. For better understanding, I recommend running the program using the link mentioned below (default approximation is three significant figures)
 "pi_calculation_using_Vpython.py":https://www.glowscript.org/#/user/kasia184/folder/MyPrograms/program/Calkpi
+
 references (for "pi_calculation_using_Vpython.py"): 
 1.1. https://www.youtube.com/watch?v=jsYwFizhncE
 
