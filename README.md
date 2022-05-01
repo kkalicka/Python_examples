@@ -19,7 +19,8 @@ This program contains method that can calculate ONP phrase (containing numbers a
 
 3. Fifo_method.py
 
-Program that shows way to do class similar to C ++ available when program include std :: queue from queue library.
+Program that shows way to do class similar  synchronized queue Python class "queue". It contains empty(), full(), get(), put() alike methods.
+3.1. https://docs.python.org/3/library/queue.html
   
 4. bisection.py
   
