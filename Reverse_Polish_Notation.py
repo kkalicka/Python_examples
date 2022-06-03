@@ -1,6 +1,6 @@
 def translate_ONP_to_ordinary(phrase):
     #we are splitting string "phrase" into a list, avery element is separate by " "
-    phrase=phrase.split()
+    phrase = phrase.split()
     #showing split "phrase" list
     print(phrase)
     #setting queue that will contain numbers later used in math operations
