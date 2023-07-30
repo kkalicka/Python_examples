@@ -54,8 +54,8 @@ Data = [7,8,1,0,9,7]
 number_of_calculations = 0
 print(f'Before sorting with Bumble sort: {Data}')
 
-for i in range(0, len(Data)-2):
-    for j in range(i, len(Data)-2):
+for i in range(0, len(Data)-1):
+    for j in range(0, len(Data)-i-1):
         if Data[j]>Data[j+1]:
             (Data[j], Data[j+1]) = (Data[j+1], Data[j])
         number_of_calculations = number_of_calculations + 1
