@@ -106,4 +106,13 @@ queue.put(1)
 queue.put(2)
 queue.put(3)
 print(queue.get())
-print(queue.is_empty())       
+print(queue.is_empty())   
+
+"""function that calculats sum of even numbers form 1 to n"""
+def sum_even_numbers(n):
+    sum = 0
+    for i in range(1, int((n+2)/2)):
+        sum = i*2 + sum
+    return sum
+print(sum_even_numbers(2))
+
