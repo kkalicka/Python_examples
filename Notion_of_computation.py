@@ -116,3 +116,18 @@ def sum_even_numbers(n):
     return sum
 print(sum_even_numbers(2))
 
+"""function that checks if number is palindrome"""
+def palindrome(number):
+    temp_number = number
+    rev_number = 0
+    while(temp_number>0):
+        rev_number = rev_number*10+temp_number%10
+        temp_number = temp_number//10
+    if number == rev_number:
+        return True
+    else:
+        return False
+        
+print(palindrome(12321))
+print(palindrome(12345))
+
