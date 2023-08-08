@@ -40,12 +40,11 @@ def find_max(list):
 
 print(find_max([2,3,4,6,7,3,5,7,1,8]))
 
-"""function that swaps values of 2 variables -> for now not working 
-properly"""
+
+"""function that swaps values of 2 variables"""
 def swap_values(value_a, value_b):
     value_a, value_b = value_b, value_a
-    return value_b, value_a
-
+    return value_a, value_b
 a, b = 5, 10
-swap_values(a, b)
+a, b = swap_values(a, b)
 print(a, b)
