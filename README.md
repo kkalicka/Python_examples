@@ -1,6 +1,6 @@
 # Python_examples
 Hello,
-I am proud to introduce some of my codes. Most of them are not quite difficult, but in making them I was focusing on doing them clearly and well understandable. I willing planning to do some more serious projects in future nevertheless now I want to learn good habits while programing. Here is a quick guide to all programs in this repository:
+I am happy to introduce some of my codes. Most of them are not quite difficult, but in making them I was focusing on doing them clearly and well understandable. I willing planning to do some more serious projects in future nevertheless now I want to learn good habits while programing. Here is a quick guide to all programs in this repository:
 
 1. pi_calculation_using_Vpython.py 
 
